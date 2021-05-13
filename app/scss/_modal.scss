@@ -1,0 +1,62 @@
+.modal-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  padding: 50px;
+  z-index: 9999;
+  background: linear-gradient(
+    -15deg,
+    #303632 0%,
+    #515351 45%,
+    #8a8d8b 55%,
+    #515351 75%,
+    #303632 100%
+  );
+  opacity: 0.9;
+  border: 2px solid #515351;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  @include telefon {
+    width: 400px;
+    overflow: scroll;
+    padding: 20px;
+    height: 500px;
+  }
+  .modal-container {
+    padding: 20px 0;
+    h3 {
+      font-size: 2rem;
+      color: #fff;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    p {
+      font-size: 1.5rem;
+      color: #fff;
+      font-weight: bold;
+    }
+    .close-btn {
+      position: absolute;
+      font-size: 2rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      top: 10px;
+      right: 10px;
+      color: #fff;
+      font-weight: bold;
+    }
+  }
+}
+
+.open-modal {
+  visibility: visible;
+  z-index: 10;
+  transition: 1s all ease-out;
+}

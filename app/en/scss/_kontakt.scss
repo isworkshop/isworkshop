@@ -1,0 +1,150 @@
+#kontakt {
+  width: 100%;
+  @include flex(row, center, center, false);
+  background-image: url(../img/kontakt.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+  .wrapper {
+    width: 50%;
+    margin: 0 auto;
+    @include tablet {
+      width: 80%;
+    }
+    @include telefon {
+      width: 90%;
+    }
+    .title-box {
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      h2 {
+        font-size: 3rem;
+      }
+    }
+    form {
+      background: rgba(37, 36, 60, 0.5);
+      position: relative;
+      &:before,
+      &:after {
+        width: 100%;
+        height: 10px;
+        position: absolute;
+        content: " ";
+        background: linear-gradient(to right, #fff, #387f7e, #fff);
+        left: 0;
+      }
+      &:before {
+        top: 0;
+      }
+      &:after {
+        bottom: 0;
+      }
+      width: 100%;
+      padding: 100px 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      @include tabletL {
+        padding: 100px 20px;
+      }
+      @include telefon {
+        padding: 50px 20px;
+      }
+      #error-message {
+        color: rgb(243, 85, 85);
+        font-weight: bold;
+      }
+      .form-group {
+        margin-bottom: 1.5em;
+        .form-label {
+          color: #fff;
+          font-size: 1.5rem;
+          display: block;
+          padding: 20px 0;
+        }
+        .form-control {
+          width: 300px;
+          height: 30px;
+          border: none;
+          border-radius: 0;
+          margin-top: 10px;
+          border-style: none none solid none;
+          border-color: #fff;
+          padding: 10px;
+          background: transparent;
+          color: #fff;
+          font-size: 1.2rem;
+          &:focus {
+            outline: none;
+          }
+        }
+        #message {
+          background: transparent;
+          border-style: none none solid none;
+          border-color: #fff;
+          color: #fff;
+          resize: none;
+          font-size: 18px;
+          font-size: 1.2rem;
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+      // @media all and(max-width: 480px) {
+      //   width: 100%;
+      // }
+      input,
+      textarea,
+      button {
+        width: 100%;
+        font-family: "Raleway", sans-serif;
+      }
+      .submit {
+        cursor: pointer;
+        position: relative;
+        width: 270px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        background: #2685b8;
+        letter-spacing: 2px;
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 60px;
+        font-weight: bold;
+        overflow: hidden;
+        margin: 20px 0;
+        box-shadow: 0 0 44px 0 #387f7e, inset 0 0 30px rgba(0, 0, 0, 1);
+        -webkit-box-shadow: 0 0 44px 0 #387f7e, inset 0 0 30px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 0 0 44px 0 #387f7e, inset 0 0 30px rgba(0, 0, 0, 1);
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: -70px;
+          width: 50px;
+          height: 100%;
+          background: rgba(255, 255, 255, 0.1);
+          transform: skewX(-15deg);
+          transition: left 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+        }
+        &:hover:before {
+          left: 120%;
+          transition: left 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+        }
+        @include tabletL {
+          width: 230px;
+        }
+      }
+    }
+  }
+}
