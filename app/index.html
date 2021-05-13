@@ -41,6 +41,14 @@
 
       gtag("config", "UA-116350369-1");
     </script>
+    <script type="text/javascript">
+      var onloadCallback = function () {
+        grecaptcha.render("isw_recaptcha", {
+          sitekey: "6Le5nsUaAAAAAJ8Yivzk-y5uL62MGkQ6R_gpCpCo",
+          theme: "dark",
+        });
+      };
+    </script>
   </head>
   <body>
     <!-- modal -->
@@ -236,7 +244,7 @@
             <ul>
               <li>Prezentacijski sajt</li>
               <li>Jednostranični sajt</li>
-              <li>Galerija</li>
+              <li>Galerija do 10 slika</li>
               <li>Kontakt forma</li>
               <li>Povezivanje sa društvenim mrežama</li>
               <li>Responsive dizajn</li>
@@ -466,6 +474,7 @@
                 placeholder="Poruka"
               ></textarea>
             </div>
+            <div id="isw_recaptcha"></div>
             <p id="error-message"></p>
             <div>
               <button class="submit" type="submit">Pošaljite poruku</button>
@@ -513,5 +522,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/main.js"></script>
+    <script
+      src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+      async
+      defer
+    ></script>
   </body>
 </html>

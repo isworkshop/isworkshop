@@ -638,7 +638,8 @@ main .sticky {
   height: 60px;
   text-align: center;
   line-height: 60px;
-  background: #f03a05;
+  background: #333333;
+  border: 2px solid #fff;
   letter-spacing: 2px;
   font-size: 18px;
   color: #fff;
