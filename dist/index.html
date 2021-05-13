@@ -41,14 +41,6 @@
 
       gtag("config", "UA-116350369-1");
     </script>
-    <script type="text/javascript">
-      var onloadCallback = function() {
-          grecaptcha.render('isw_recaptcha', {
-              'sitekey' : '6Le5nsUaAAAAAJ8Yivzk-y5uL62MGkQ6R_gpCpCo',
-              'theme' : 'dark'
-          });
-      };
-    </script>
   </head>
   <body>
     <!-- modal -->
@@ -134,7 +126,7 @@
         </ul>
         <div class="lang">
           <a href="index.html"><img src="img/rs.jpg" /></a>
-          <a href="index-en.html"><img src="img/usa.jpg" /></a>
+          <a href="en/index.html"><img src="img/usa.jpg" /></a>
         </div>
       </nav>
 
@@ -240,7 +232,7 @@
         <div class="container cenovnik">
           <article class="slidefromleft fadein">
             <h3>Mini</h3>
-            <p class="cena cena-rs">15.000</p>
+            <p class="cena">15.000</p>
             <ul>
               <li>Prezentacijski sajt</li>
               <li>Jednostranični sajt</li>
@@ -252,12 +244,13 @@
             </ul>
             <a href="#kontakt" class="btn">Kontaktirajte nas</a>
           </article>
+
           <article class="slidefrombottom fadein">
             <h3>Standard</h3>
-            <p class="cena cena-rs">40.000</p>
+            <p class="cena">40.000</p>
             <ul>
               <li>CMS (WordPress)</li>
-              <li>Do 10 stranica</li>
+              <li>Do 20 stranica</li>
               <li>Galerija</li>
               <li>Slajder do 3 slajda</li>
               <li>Blog</li>
@@ -272,7 +265,7 @@
 
           <article class="slidefromright fadein">
             <h3>Premijum</h3>
-            <p class="cena cena-rs">70.000</p>
+            <p class="cena">70.000</p>
             <ul>
               <li>CMS (WordPress)</li>
               <li>Do 20 stranica</li>
@@ -435,7 +428,7 @@
           <form
             action="php/webform.php"
             method="post"
-            class="fadein"
+            class="slidefromtop fadein"
             novalidate
           >
             <div class="form-group">
@@ -473,7 +466,6 @@
                 placeholder="Poruka"
               ></textarea>
             </div>
-            <div id="isw_recaptcha"></div>
             <p id="error-message"></p>
             <div>
               <button class="submit" type="submit">Pošaljite poruku</button>
@@ -521,6 +513,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/main.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
   </body>
 </html>
