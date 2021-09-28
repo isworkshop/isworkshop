@@ -1,293 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="description"
-      content="ISWorkshop team deals with professional website development, online shops and internet marketing."
-    />
-    <meta
-      property="og:title"
-      content="Website design. Online shop design. Internet marketing."
-    />
-    <meta property="og:url" content="https://www.isworkshop.net" />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:description"
-      content="ISWorkshop team deals with professional website development, online shops and internet marketing."
-    />
-    <meta
-      property="og:image"
-      content="https://www.isworkshop.net/img/isw.jpg"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Website design. Online shop design. Internet marketing.</title>
-    <link rel="shortcut icon" type="image/png" href="favicon.png" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-116350369-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="description"
+			content="ISWorkshop team deals with professional website development, online shops and internet marketing."
+		/>
+		<meta
+			property="og:title"
+			content="Website design. Online shop design. Internet marketing."
+		/>
+		<meta property="og:url" content="https://www.isworkshop.net" />
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:description"
+			content="ISWorkshop team deals with professional website development, online shops and internet marketing."
+		/>
+		<meta
+			property="og:image"
+			content="https://www.isworkshop.net/img/isw.jpg"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<title>Website design. Online shop design. Internet marketing.</title>
+		<link rel="shortcut icon" type="image/png" href="favicon.png" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-116350369-1"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
 
-      gtag("config", "UA-116350369-1");
-    </script>
-    <script type="text/javascript">
-      var onloadCallback = function () {
-        grecaptcha.render("isw_recaptcha", {
-          sitekey: "6Le5nsUaAAAAAJ8Yivzk-y5uL62MGkQ6R_gpCpCo",
-          theme: "dark",
-        });
-      };
-    </script>
-  </head>
-  <body>
-    <!-- modal -->
-    <div id="izrada" class="modal-overlay">
-      <div class="modal-container">
-        <h3>Web Design</h3>
-        <p>
-          When creating a site, we use technologies such as HTML, CSS,
-          JavaScript, WordPress ... Adapting to your needs during the
-          development of the site, we respect your ideas and wishes so that the
-          end result is - exactly what you need!
-        </p>
-        <p>
-          If you already have a website, and you are not satisfied with it's
-          appearance, we will help you redesign, in accordance with your needs
-          and modernize your business.
-        </p>
-        <p>
-          We also perform the necessary maintenance of your site, which includes
-          periodical changes in content and updating components, in order to
-          maintain the quality and smooth operation of the site itself.
-        </p>
-        <button class="close-btn">X</button>
-      </div>
-    </div>
+			gtag("config", "UA-116350369-1");
+		</script>
+		<script type="text/javascript">
+			var onloadCallback = function () {
+				grecaptcha.render("isw_recaptcha", {
+					sitekey: "6Le5nsUaAAAAAJ8Yivzk-y5uL62MGkQ6R_gpCpCo",
+					theme: "dark",
+				});
+			};
+		</script>
+	</head>
+	<body>
+		<!-- modal -->
+		<div id="izrada" class="modal-overlay">
+			<div class="modal-container">
+				<h3>Web Design</h3>
+				<p>
+					When creating a site, we use technologies such as HTML, CSS,
+					JavaScript, WordPress ... Adapting to your needs during the
+					development of the site, we respect your ideas and wishes so
+					that the end result is - exactly what you need!
+				</p>
+				<p>
+					If you already have a website, and you are not satisfied
+					with it's appearance, we will help you redesign, in
+					accordance with your needs and modernize your business.
+				</p>
+				<p>
+					We also perform the necessary maintenance of your site,
+					which includes periodical changes in content and updating
+					components, in order to maintain the quality and smooth
+					operation of the site itself.
+				</p>
+				<button class="close-btn">X</button>
+			</div>
+		</div>
 
-    <div id="marketing" class="modal-overlay">
-      <div class="modal-container">
-        <h3>Internet Marketing</h3>
-        <p>
-          In order for your business to progress and develop, internet
-          advertising is also necessary. We offer you the possibilities of
-          Facebook advertising, Google ads, animated banners, and similiar.
-        </p>
-        <p>
-          Facebook advertising means targeting users according to the interest
-          groups of your business.
-        </p>
-        <p>
-          Also, in order to rank your site as well as possible on search
-          engines, it is useful to optimize the site that we do through SEO.
-        </p>
-        <p>
-          If you want your site to thrive, and therefore your business, you need
-          internet marketing!
-        </p>
-        <button class="close-btn">X</button>
-      </div>
-    </div>
-    <!-- burger -->
-    <div id="wrapper" class="">
-      <ul class="telefon">
-        <li>
-          <a href="#particles-js" onclick="toggleButton()" class="active"
-            >home</a
-          >
-        </li>
-        <li><a href="#o-nama" onclick="toggleButton()">about us</a></li>
-        <li><a href="#usluge" onclick="toggleButton()">services</a></li>
-        <li><a href="#cenovnik" onclick="toggleButton()">pricelist</a></li>
-        <li><a href="#portfolio" onclick="toggleButton()">portfolio</a></li>
-        <li><a href="#kontakt" onclick="toggleButton()">contact</a></li>
-      </ul>
-    </div>
-    <div id="button">
-      <div class="menu-button" id="prva"></div>
-      <div class="menu-button" id="druga"></div>
-      <div class="menu-button" id="treca"></div>
-    </div>
-    <main>
-      <!-- navigacija -->
-      <nav>
-        <div class="logo">
-          <img src="img/logo.png" alt="logo" />
-        </div>
-        <ul class="meni">
-          <li><a href="#particles-js" class="active">home</a></li>
-          <li><a href="#o-nama">about us</a></li>
-          <li><a href="#usluge">services</a></li>
-          <li><a href="#cenovnik">pricelist</a></li>
-          <li><a href="#portfolio">portfolio</a></li>
-          <li><a href="#kontakt">contact</a></li>
-        </ul>
-        <div class="lang">
-          <a href="index.html"><img src="img/rs.jpg" /></a>
-          <a href="index-en.html"><img src="img/usa.jpg" /></a>
-        </div>
-      </nav>
-      <!-- hero -->
-      <div id="particles-js" class="active">
-        <div class="banner-under"></div>
-        <div class="banner">
-          <h1 class="title">
-            <span>Website</span> design.<br />Creating an
-            <span>online store.</span><br /><span>Internet</span> marketing.
-          </h1>
-        </div>
-      </div>
-      <!-- o nama -->
-      <div id="o-nama">
-        <h2 class="fadein">Who are <span>we?</span></h2>
-        <div class="container">
-          <div class="left slidefromleft fadein"></div>
-          <div class="right slidefromright fadein">
-            <p class="fadein">
-              The ISWorkshop team deals with professional website development,
-              online stores, and internet marketing.
-            </p>
-            <p class="fadein">
-              Your website is an identity card of your online business, which
-              follows modern trends and keeps pace with the time.
-            </p>
-            <p class="fadein">
-              We offer you the quality realization of ideas, more economical
-              than the usual offers. We want to hear your needs and come to the
-              best solutions in a joint agreement.
-            </p>
-            <p class="fadein">
-              We guarantee you the quality of our services and we are sure that
-              you will be satisfied with the end result.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div id="usluge">
-        <div class="container">
-          <h2 class="fadein">What we offer?</h2>
-          <article class="left">
-            <div class="img slidefromleft fadein">
-              <img src="img/webdesign.jpg" class="usluge1" alt="" />
-            </div>
-            <div class="wrapper slidefromright fadein">
-              <h3>Web Design</h3>
-              <div class="wrapper-container">
-                <div class="wrapper-icon">
-                  <h4>Website design</h4>
-                  <img src="img/browser-7.png" alt="" />
-                </div>
-                <div class="wrapper-icon">
-                  <h4>Website redesign</h4>
-                  <img src="img/pencil.png" alt="" />
-                </div>
-                <div class="wrapper-icon">
-                  <h4>Website maintenance</h4>
-                  <img src="img/browser-8.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </article>
-          <p class="btn modal-btn modal-izrada fadein">
-            READ MORE
-          </p>
-          <!-- drugi -->
-          <!-- proba -->
-          <article class="right">
-            <div class="img slidefromright fadein">
-              <img src="img/marketing.jpg" alt="" />
-            </div>
-            <div class="wrapper slidefromleft fadein">
-              <h3>Marketing</h3>
-              <div class="wrapper-container">
-                <div class="wrapper-icon">
-                  <h4>SEO</h4>
-                  <img src="img/analytics-35.png" alt="" />
-                </div>
-                <div class="wrapper-icon">
-                  <h4>Google Ads</h4>
-                  <img src="img/adwords.png" alt="" />
-                </div>
-                <div class="wrapper-icon">
-                  <h4>Facebook Ads</h4>
-                  <img src="img/facebook-round.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </article>
-          <p class="btn modal-btn modal-marketing fadein">
-            READ MORE
-          </p>
-        </div>
-      </div>
-      <div id="cenovnik">
-        <div class="note fadein">
-          <h2>Pricelist</h2>
-          <p>
-            The prices of the site are indicative and subject to change
-            depending on your needs and the content of the site.
-          </p>
-        </div>
-        <div class="container cenovnik">
-          <article class="slidefromleft fadein">
-            <h3>Mini</h3>
-            <p class="cena cena-en">150</p>
-            <ul>
-              <li>Presentation website</li>
-              <li>Onepage design</li>
-              <li>Gallery</li>
-              <li>Contact form</li>
-              <li>Connecting with social networks</li>
-              <li>Responsive design</li>
-              <li>Basic SEO</li>
-            </ul>
-            <a href="#kontakt" class="btn">Contact Us</a>
-          </article>
-          <article class="slidefrombottom fadein">
-            <h3>Standard</h3>
-            <p class="cena cena-en">500</p>
-            <ul>
-              <li>CMS (WordPress)</li>
-              <li>Up to 20 pages</li>
-              <li>Gallery</li>
-              <li>Slider, up to 3 slides</li>
-              <li>Blog</li>
-              <li>Contact form</li>
-              <li>Connecting with social networks</li>
-              <li>Responsive design</li>
-              <li>Basic SEO</li>
-              <li>Website maintenance, 6 months</li>
-            </ul>
-            <a href="#kontakt" class="btn">Contact Us</a>
-          </article>
-          <article class="slidefromright fadein">
-            <h3>Premium</h3>
-            <p class="cena cena-en">800</p>
-            <ul>
-              <li>CMS (WordPress)</li>
-              <li>Up to 20 pages</li>
-              <li>Online shop, up to 50 products</li>
-              <li>Gallery</li>
-              <li>Slider, up to 3 slides</li>
-              <li>Blog</li>
-              <li>Contact form</li>
-              <li>Connecting with social networks</li>
-              <li>Responsive design</li>
-              <li>Basic SEO</li>
-              <li>Website maintenance, 6 months</li>
-            </ul>
-            <a href="#kontakt" class="btn">Contact Us</a>
-          </article>
-        </div>
-        <!-- <div class="wrapper slidefrombottom fadein">
+		<div id="marketing" class="modal-overlay">
+			<div class="modal-container">
+				<h3>Internet Marketing</h3>
+				<p>
+					In order for your business to progress and develop, internet
+					advertising is also necessary. We offer you the
+					possibilities of Facebook advertising, Google ads, animated
+					banners, and similiar.
+				</p>
+				<p>
+					Facebook advertising means targeting users according to the
+					interest groups of your business.
+				</p>
+				<p>
+					Also, in order to rank your site as well as possible on
+					search engines, it is useful to optimize the site that we do
+					through SEO.
+				</p>
+				<p>
+					If you want your site to thrive, and therefore your
+					business, you need internet marketing!
+				</p>
+				<button class="close-btn">X</button>
+			</div>
+		</div>
+		<!-- burger -->
+		<div id="wrapper" class="">
+			<ul class="telefon">
+				<li>
+					<a
+						href="#particles-js"
+						onclick="toggleButton()"
+						class="active"
+						>home</a
+					>
+				</li>
+				<li><a href="#o-nama" onclick="toggleButton()">about us</a></li>
+				<li><a href="#usluge" onclick="toggleButton()">services</a></li>
+				<li>
+					<a href="#cenovnik" onclick="toggleButton()">pricelist</a>
+				</li>
+				<li>
+					<a href="#portfolio" onclick="toggleButton()">portfolio</a>
+				</li>
+				<li><a href="#kontakt" onclick="toggleButton()">contact</a></li>
+			</ul>
+		</div>
+		<div id="button">
+			<div class="menu-button" id="prva"></div>
+			<div class="menu-button" id="druga"></div>
+			<div class="menu-button" id="treca"></div>
+		</div>
+		<main>
+			<!-- navigacija -->
+			<nav>
+				<div class="logo">
+					<img src="img/logo.png" alt="logo" />
+				</div>
+				<ul class="meni">
+					<li><a href="#particles-js" class="active">home</a></li>
+					<li><a href="#o-nama">about us</a></li>
+					<li><a href="#usluge">services</a></li>
+					<li><a href="#cenovnik">pricelist</a></li>
+					<li><a href="#portfolio">portfolio</a></li>
+					<li><a href="#kontakt">contact</a></li>
+				</ul>
+				<div class="lang">
+					<a href="index.html"><img src="img/rs.jpg" /></a>
+					<a href="index-en.html"><img src="img/usa.jpg" /></a>
+				</div>
+			</nav>
+			<!-- hero -->
+			<div id="particles-js" class="active">
+				<div class="banner-under"></div>
+				<div class="banner">
+					<h1 class="title">
+						<span>Website</span> design.<br />Creating an
+						<span>online store.</span><br /><span>Internet</span>
+						marketing.
+					</h1>
+				</div>
+			</div>
+			<!-- o nama -->
+			<div id="o-nama">
+				<h2 class="fadein">Who are <span>we?</span></h2>
+				<div class="container">
+					<div class="left slidefromleft fadein"></div>
+					<div class="right slidefromright fadein">
+						<p class="fadein">
+							The ISWorkshop team deals with professional website
+							development, online stores, and internet marketing.
+						</p>
+						<p class="fadein">
+							Your website is an identity card of your online
+							business, which follows modern trends and keeps pace
+							with the time.
+						</p>
+						<p class="fadein">
+							We offer you the quality realization of ideas, more
+							economical than the usual offers. We want to hear
+							your needs and come to the best solutions in a joint
+							agreement.
+						</p>
+						<p class="fadein">
+							We guarantee you the quality of our services and we
+							are sure that you will be satisfied with the end
+							result.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="usluge">
+				<div class="container">
+					<h2 class="fadein">What we offer?</h2>
+					<article class="left">
+						<div class="img slidefromleft fadein">
+							<img
+								src="img/webdesign.jpg"
+								class="usluge1"
+								alt=""
+							/>
+						</div>
+						<div class="wrapper slidefromright fadein">
+							<h3>Web Design</h3>
+							<div class="wrapper-container">
+								<div class="wrapper-icon">
+									<h4>Website design</h4>
+									<img src="img/browser-7.png" alt="" />
+								</div>
+								<div class="wrapper-icon">
+									<h4>Website redesign</h4>
+									<img src="img/pencil.png" alt="" />
+								</div>
+								<div class="wrapper-icon">
+									<h4>Website maintenance</h4>
+									<img src="img/browser-8.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</article>
+					<p class="btn modal-btn modal-izrada fadein">READ MORE</p>
+					<!-- drugi -->
+					<!-- proba -->
+					<article class="right">
+						<div class="img slidefromright fadein">
+							<img src="img/marketing.jpg" alt="" />
+						</div>
+						<div class="wrapper slidefromleft fadein">
+							<h3>Marketing</h3>
+							<div class="wrapper-container">
+								<div class="wrapper-icon">
+									<h4>SEO</h4>
+									<img src="img/analytics-35.png" alt="" />
+								</div>
+								<div class="wrapper-icon">
+									<h4>Google Ads</h4>
+									<img src="img/adwords.png" alt="" />
+								</div>
+								<div class="wrapper-icon">
+									<h4>Facebook Ads</h4>
+									<img src="img/facebook-round.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</article>
+					<p class="btn modal-btn modal-marketing fadein">
+						READ MORE
+					</p>
+				</div>
+			</div>
+			<div id="cenovnik">
+				<div class="note fadein">
+					<h2>Pricelist</h2>
+					<p>
+						The prices of the site are indicative and subject to
+						change depending on your needs and the content of the
+						site.
+					</p>
+				</div>
+				<div class="container cenovnik">
+					<article class="slidefromleft fadein">
+						<h3>Mini</h3>
+						<p class="cena cena-en">150</p>
+						<ul>
+							<li>Presentation website</li>
+							<li>Onepage design</li>
+							<li>Gallery</li>
+							<li>Contact form</li>
+							<li>Connecting with social networks</li>
+							<li>Responsive design</li>
+							<li>Basic SEO</li>
+						</ul>
+						<a href="#kontakt" class="btn">Contact Us</a>
+					</article>
+					<article class="slidefrombottom fadein">
+						<h3>Standard</h3>
+						<p class="cena cena-en">500</p>
+						<ul>
+							<li>CMS (WordPress)</li>
+							<li>Up to 20 pages</li>
+							<li>Gallery</li>
+							<li>Slider, up to 3 slides</li>
+							<li>Blog</li>
+							<li>Contact form</li>
+							<li>Connecting with social networks</li>
+							<li>Responsive design</li>
+							<li>Basic SEO</li>
+							<li>Website maintenance, 6 months</li>
+						</ul>
+						<a href="#kontakt" class="btn">Contact Us</a>
+					</article>
+					<article class="slidefromright fadein">
+						<h3>Premium</h3>
+						<p class="cena cena-en">800</p>
+						<ul>
+							<li>CMS (WordPress)</li>
+							<li>Up to 20 pages</li>
+							<li>Online shop, up to 50 products</li>
+							<li>Gallery</li>
+							<li>Slider, up to 3 slides</li>
+							<li>Blog</li>
+							<li>Contact form</li>
+							<li>Connecting with social networks</li>
+							<li>Responsive design</li>
+							<li>Basic SEO</li>
+							<li>Website maintenance, 6 months</li>
+						</ul>
+						<a href="#kontakt" class="btn">Contact Us</a>
+					</article>
+				</div>
+				<!-- <div class="wrapper slidefrombottom fadein">
                <h3>Cene dodatnih usluga</h3>
                <ul>
                    <li>Višejezični sajt - 40% od cene sajta</li>
@@ -296,233 +313,254 @@
                    <li>Dodavanje proizvoda - 120din po proizvodu</li>
                </ul>
            </div> -->
-      </div>
-      <div id="portfolio">
-        <h2 class="fadein">Portfolio</h2>
-        <div class="wrapper wrapper-portfolio fadein-line">
-          <div class="card fadein-item">
-            <div
-              class="front"
-              style="background-image: url(img/liridenet.png)"
-            ></div>
-            <div class="back">
-              <div>
-                <h3>LiRidenet</h3>
-                <a href="https://www.liridenet.com" target="_blank"
-                  ><img src="img/link.png" alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
+			</div>
+			<div id="portfolio">
+				<h2 class="fadein">Portfolio</h2>
+				<div class="wrapper wrapper-portfolio fadein-line">
+					<div class="card fadein-item">
+						<div
+							class="front"
+							style="background-image: url(img/liridenet.png)"
+						></div>
+						<div class="back">
+							<div>
+								<h3>LiRidenet</h3>
+								<a
+									href="https://www.liridenet.com"
+									target="_blank"
+									><img src="img/link.png" alt=""
+								/></a>
+							</div>
+						</div>
+					</div>
 
-          <div class="card fadein-item">
-            <div
-              class="front"
-              style="background-image: url(img/nestiqdesign.png)"
-            ></div>
-            <div class="back">
-              <div>
-                <h3>NestIQ Design</h3>
-                <a href="https://www.nestiqdesign.com" target="_blank"
-                  ><img src="img/link.png" alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
+					<div class="card fadein-item">
+						<div
+							class="front"
+							style="background-image: url(img/nestiqdesign.png)"
+						></div>
+						<div class="back">
+							<div>
+								<h3>NestIQ Design</h3>
+								<a
+									href="https://www.nestiqdesign.com"
+									target="_blank"
+									><img src="img/link.png" alt=""
+								/></a>
+							</div>
+						</div>
+					</div>
 
-          <div class="card fadein-item">
-            <div
-              class="front"
-              style="background-image: url(img/dositejns.png)"
-            ></div>
-            <div class="back">
-              <div>
-                <h3>OŠ "Dositej Obradović" Novi Sad</h3>
-                <a href="https://www.dositejns.edu.rs" target="_blank"
-                  ><img src="img/link.png" alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
+					<div class="card fadein-item">
+						<div
+							class="front"
+							style="background-image: url(img/dositejns.png)"
+						></div>
+						<div class="back">
+							<div>
+								<h3>OŠ "Dositej Obradović" Novi Sad</h3>
+								<a
+									href="https://www.dositejns.edu.rs"
+									target="_blank"
+									><img src="img/link.png" alt=""
+								/></a>
+							</div>
+						</div>
+					</div>
 
-          <div class="card fadein-item">
-            <div
-              class="front"
-              style="background-image: url(img/gamingcorner.png)"
-            ></div>
-            <div class="back">
-              <div>
-                <h3>Gaming Corner</h3>
-                <a href="https://www.gamingcorner.club" target="_blank"
-                  ><img src="img/link.png" alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
+					<div class="card fadein-item">
+						<div
+							class="front"
+							style="background-image: url(img/gamingcorner.png)"
+						></div>
+						<div class="back">
+							<div>
+								<h3>Gaming Corner</h3>
+								<a
+									href="https://www.gamingcorner.club"
+									target="_blank"
+									><img src="img/link.png" alt=""
+								/></a>
+							</div>
+						</div>
+					</div>
 
-          <div class="card fadein-item">
-            <div
-              class="front"
-              style="background-image: url(img/biznisipravo.png)"
-            ></div>
-            <div class="back">
-              <div>
-                <h3>Biznis i Pravo</h3>
-                <a href="https://www.biznisipravo.rs" target="_blank"
-                  ><img src="img/link.png" alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
+					<div class="card fadein-item">
+						<div
+							class="front"
+							style="background-image: url(img/biznisipravo.png)"
+						></div>
+						<div class="back">
+							<div>
+								<h3>Biznis i Pravo</h3>
+								<a
+									href="https://www.biznisipravo.rs"
+									target="_blank"
+									><img src="img/link.png" alt=""
+								/></a>
+							</div>
+						</div>
+					</div>
 
-          <div class="card fadein-item">
-            <div
-              class="front"
-              style="background-image: url(img/blog.png)"
-            ></div>
-            <div class="back">
-              <div>
-                <h3>Blog</h3>
-                <p>(Template)</p>
-                <a href="#" target="_blank"
-                  ><img src="img/link.png" alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
+					<div class="card fadein-item">
+						<div
+							class="front"
+							style="background-image: url(img/blog.png)"
+						></div>
+						<div class="back">
+							<div>
+								<h3>Blog</h3>
+								<p>(Template)</p>
+								<a href="#" target="_blank"
+									><img src="img/link.png" alt=""
+								/></a>
+							</div>
+						</div>
+					</div>
 
-          <div class="card fadein-item">
-            <div
-              class="front"
-              style="background-image: url(img/rental.png)"
-            ></div>
-            <div class="back">
-              <div>
-                <h3>Rental</h3>
-                <p>(Template)</p>
-                <a href="#" target="_blank"
-                  ><img src="img/link.png" alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
+					<div class="card fadein-item">
+						<div
+							class="front"
+							style="background-image: url(img/rental.png)"
+						></div>
+						<div class="back">
+							<div>
+								<h3>Rental</h3>
+								<p>(Template)</p>
+								<a href="#" target="_blank"
+									><img src="img/link.png" alt=""
+								/></a>
+							</div>
+						</div>
+					</div>
 
-          <div class="card fadein-item">
-            <div
-              class="front"
-              style="background-image: url(img/music.png)"
-            ></div>
-            <div class="back">
-              <div>
-                <h3>Music</h3>
-                <p>(Template)</p>
-                <a href="https://www.samardzic.in.rs/Music/" target="_blank"
-                  ><img src="img/link.png" alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+					<div class="card fadein-item">
+						<div
+							class="front"
+							style="background-image: url(img/music.png)"
+						></div>
+						<div class="back">
+							<div>
+								<h3>Music</h3>
+								<p>(Template)</p>
+								<a
+									href="https://www.samardzic.in.rs/Music/"
+									target="_blank"
+									><img src="img/link.png" alt=""
+								/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-      <div id="kontakt">
-        <div class="wrapper">
-          <div class="title-box">
-            <h2 class="fadein">Contact Us</h2>
-          </div>
-          <form
-            action="php/webform.php"
-            method="post"
-            class="fadein"
-            novalidate
-          >
-            <div class="form-group">
-              <label for="name" class="form-label">Your name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                name="name"
-                placeholder="Your name"
-                tabindex="1"
-                required
-              />
-            </div>
-            <div class="form-group">
-              <label for="email" class="form-label">Your email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                name="email"
-                placeholder="Your email"
-                tabindex="2"
-                required
-              />
-            </div>
-            <div class="form-group">
-              <label for="message" class="form-label">Message</label>
-              <textarea
-                tabindex="4"
-                name="message"
-                id="message"
-                cols="50"
-                rows="8"
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <div id="isw_recaptcha"></div>
-            <p id="error-message"></p>
-            <div>
-              <button class="submit" type="submit">SEND</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </main>
-    <footer>
-      <div class="container">
-        <div class="socials">
-          <a href="https://www.facebook.com/isworkshop" target="_blank"
-            ><img src="img/facebook.png" alt="facebook"
-          /></a>
-          <a href="https://www.instagram.com/intelligentsolutionsworkshop/"
-            ><img src="img/instagram.png" alt="facebook"
-          /></a>
-          <a href="https://www.linkedin.com/company/isworkshop/"
-            ><img src="img/linkedin.png" alt="facebook"
-          /></a>
-        </div>
-        <div class="info">
-          <a href="mailto:office@isworkshop.net"
-            ><img src="img/email.png" alt="email" /><span
-              >office@isworkshop.net</span
-            ></a
-          >
-          <a href="tel:+381677121716"
-            ><img src="img/phone.png" alt="telefon" /><span
-              >+381677121716</span
-            ></a
-          >
-          <a href="tel:+381644435426"
-            ><img src="img/phone.png" alt="telefon" /><span
-              >+381644435426</span
-            ></a
-          >
-        </div>
-      </div>
-      <div class="copy">
-        <p>2021 &copy; ISWorkshop; All rights reserved.</p>
-      </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/main.js"></script>
-    <script
-      src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-      async
-      defer
-    ></script>
-  </body>
+			<div id="kontakt">
+				<div class="wrapper">
+					<div class="title-box">
+						<h2 class="fadein">Contact Us</h2>
+					</div>
+					<form
+						action="php/webform.php"
+						method="post"
+						class="fadein"
+						novalidate
+					>
+						<div class="form-group">
+							<label for="name" class="form-label"
+								>Your name</label
+							>
+							<input
+								type="text"
+								class="form-control"
+								id="name"
+								name="name"
+								placeholder="Your name"
+								tabindex="1"
+								required
+							/>
+						</div>
+						<div class="form-group">
+							<label for="email" class="form-label"
+								>Your email</label
+							>
+							<input
+								type="email"
+								class="form-control"
+								id="email"
+								name="email"
+								placeholder="Your email"
+								tabindex="2"
+								required
+							/>
+						</div>
+						<div class="form-group">
+							<label for="message" class="form-label"
+								>Message</label
+							>
+							<textarea
+								tabindex="4"
+								name="message"
+								id="message"
+								cols="50"
+								rows="8"
+								placeholder="Message"
+							></textarea>
+						</div>
+						<div id="isw_recaptcha"></div>
+						<p id="error-message"></p>
+						<div>
+							<button class="submit" type="submit">SEND</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="socials">
+					<a
+						href="https://www.facebook.com/isworkshop"
+						target="_blank"
+						><img src="img/facebook.png" alt="facebook"
+					/></a>
+					<a
+						href="https://www.instagram.com/intelligentsolutionsworkshop/"
+						><img src="img/instagram.png" alt="facebook"
+					/></a>
+					<a href="https://www.linkedin.com/company/isworkshop/"
+						><img src="img/linkedin.png" alt="facebook"
+					/></a>
+				</div>
+				<div class="info">
+					<a href="mailto:office@isworkshop.net"
+						><img src="img/email.png" alt="email" /><span
+							>office@isworkshop.net</span
+						></a
+					>
+					<a href="tel:+381677121716"
+						><img src="img/phone.png" alt="telefon" /><span
+							>+381677121716</span
+						></a
+					>
+					<a href="tel:+381644435426"
+						><img src="img/phone.png" alt="telefon" /><span
+							>+381644435426</span
+						></a
+					>
+				</div>
+			</div>
+			<div class="copy">
+				<p>2021 &copy; ISWorkshop; All rights reserved.</p>
+			</div>
+		</footer>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+		<script src="js/particles.js"></script>
+		<script src="js/main.js"></script>
+		<script
+			src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+			async
+			defer
+		></script>
+	</body>
 </html>
