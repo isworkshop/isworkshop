@@ -15,9 +15,14 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^9.0.0",
+<<<<<<< HEAD
+    "gulp-sass": "^5.0.0",
+=======
+>>>>>>> 6e83afd2596d4af82ecb5b4b3c08c1b7a60d0719
     "gulp-sourcemaps": "^3.0.0",
     "gulp-webp": "^4.0.1",
-    "postcss": "^8.2.6"
+    "postcss": "^8.2.6",
+    "sass": "^1.43.2"
   },
   "dependencies": {
     "del": "^6.0.0",
