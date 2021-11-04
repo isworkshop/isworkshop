@@ -1,33 +1,42 @@
 {
-  "name": "ISworkshop website",
+  "name": "isworkshop",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ISWorkshop sajt",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^10.2.4",
-    "browser-sync": "^2.26.14",
-    "gulp": "^4.0.2",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-postcss": "^9.0.0",
-<<<<<<< HEAD
-    "gulp-sass": "^5.0.0",
-=======
->>>>>>> 6e83afd2596d4af82ecb5b4b3c08c1b7a60d0719
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-webp": "^4.0.1",
-    "postcss": "^8.2.6",
-    "sass": "^1.43.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isworkshop/isworkshop.git"
   },
-  "dependencies": {
+  "keywords": [
+    "Sajt",
+    "za",
+    "ISWorkshop"
+  ],
+  "author": "Jovana & Ivica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isworkshop/isworkshop/issues"
+  },
+  "homepage": "https://github.com/isworkshop/isworkshop#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "browser-sync": "^2.27.5",
+    "chokidar": "^3.5.2",
+    "debug": "^4.3.1",
     "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-image": "^6.2.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
     "gulp-util": "^3.0.8",
+    "sass": "^1.43.2",
+    "uuid": "^8.3.2",
     "vinyl-ftp": "^0.6.1"
   }
 }
